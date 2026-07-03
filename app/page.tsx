@@ -627,7 +627,7 @@ function PLChart({ history, cumulativePL }: { history: TradePoint[]; cumulativeP
         </span>
       </div>
 
-      <div className="h-[80] rounded-md border bg-background p-3">
+      <div className="h-[320px] rounded-md border bg-background p-3">
         <svg viewBox="0 0 700 320" className="h-full w-full" role="img" aria-label="P/L line chart">
           <line x1="42" y1="20" x2="42" y2="280" className="stroke-border" strokeWidth="2" />
           <line x1="42" y1="280" x2="682" y2="280" className="stroke-border" strokeWidth="2" />
